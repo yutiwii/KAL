@@ -1,0 +1,13 @@
+# Komputasi Aljabar Linear
+**Aljabar linear** adalah cabang matematika yang mempelajari vektor, ruang vektor (vektor space), transformasi linear, serta sistem persamaan linear dan matriks. Ini merupakan landasan krusial dalam matematika terapan, sains komputer, teknik, dan ilmu data, terutama untuk memodelkan fenomena alam dan optimasi proses.
+
+- Vektor dalam aljabar linear adalah objek matematika yang memiliki besaran dengan magnitude dan arah, umumnya direpresentasikan sebagai kumpulan angka berurutan (n-tupel) dalam ruang $R^n$ (kolom atau baris). Vektor dapat dijumlahkan dan dikalikan dengan skalar (angka riil/kompleks) untuk memenuhi aksioma ruang vektor. Vektor adalah dasar dalam pemodelan data, fisika, dan transformasi linear. Representasi vektor sebagai pasangan x dan y adalah dalam ruang dua dimensi. X merupakan komponen vektor dalam sumbu x, sedangkan y merupakan komponen vektor dalam sumbu y. representasi vektor dalam ruang tiga dimensi adalah x, y, z.
+- Ruang Vektor (Vector Space) Himpunan vektor yang memenuhi aksioma tertentu,  Agar disebut ruang vektor, himpunan tersebut harus memenuhi 10 aksioma, seperti ketertutupan terhadap penjumlahan dan perkalian skalar, komutatif, asosiatif, memiliki elemen identitas, serta memiliki vektor nol dan invers.
+- Transformasi linear merupakan transformasi yang mempertahankan struktur ruang vektor. Cakupannya adalah rotasi sebagai operasi linier, refleksi, serta proyeksi. Representasi transformasi linear biasanya dalam bentuk matriks.
+- Sistem persamaan linear (SPL) adalah sekumpulan dua atau lebih persamaan aljabar linear yang memiliki variabel sama, pangkat tertinggi satu, dan diselesaikan bersamaan untuk mencari nilai variabel yang memenuhi seluruh persamaan. SPL dapat berbentuk dua variabel (SPLDV) atau tiga variabel (SPLTV), dengan solusi unik, tak hingga banyak, atau tidak ada.
+  - **Contoh persamaan linear (SPLDV):** $$ ax + by = c $$ 
+  - **Contoh persamaan linear (SPLTV):** $$ ax + by + cz = d $$
+- Matriks dalam aljabar linear adalah susunan bilangan, simbol, atau ekspresi berbentuk persegi panjang yang diatur dalam baris dan kolom. Matriks bertindak sebagai representasi data, sistem persamaan linear, atau transformasi linear. Ukuran matriks ditentukan oleh jumlah baris $(m)$ dan kolom $(n)$, sering dinotasikan sebagai ($m$ x $n$)
+
+
+**Komputasi aljabar linear** adalah cabang matematika terapan yang menggunakan komputer untuk memecahkan persamaan linier, matriks, vektor, dan transformasi ruang vektor secara efisien. Ini krusial dalam grafika komputer, machine learning (seperti reduksi dimensi PCA), teknik, dan sains untuk memanipulasi data multidimensi. Alat dasarnya meliputi eliminasi Gauss, dekomposisi matriks, serta nilai/vektor eigen. 
