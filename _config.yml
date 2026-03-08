@@ -1,0 +1,10 @@
+title: Kalkulator
+author: Tiwi
+
+execute:
+  execute_notebooks: auto
+
+sphinx:
+  config:
+    html_js_files:
+      - https://sagecell.sagemath.org/static/embedded_sagecell.js
